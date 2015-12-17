@@ -72,9 +72,7 @@ OUT
 # 
 # p NKF.nkf('-wxm0', main_page.body)
 
-
 # Tweet
-# TODO: 後で試す
 client = Twitter::REST::Client.new do |config|
     config.consumer_key        = TWITTER_CONSUMER_KEY
     config.consumer_secret     = TWITTER_CONSUMER_SECRET
@@ -83,5 +81,4 @@ client = Twitter::REST::Client.new do |config|
 end
 
 client.update(tweet)
-
 # p tweet
