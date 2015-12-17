@@ -1,0 +1,6 @@
+.bundle/
+vendor/
+
+const.rb
+TODO.txt
+out.txt
